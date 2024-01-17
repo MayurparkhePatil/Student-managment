@@ -5,7 +5,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import com.students.dao.StudentDao;
 import com.students.entity.Student;
-import com.students.exceptionhandling.StudentNotFoundException;
 
 @Service
 public class StudentServiceImpl implements StudentService {
